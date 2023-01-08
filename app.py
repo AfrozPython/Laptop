@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 
 # import the model
-pipe = pickle.load(open('C:/Users/Appu/Desktop/Streamlit Test/Best Code Streamlit/00. Test project/Project 7/laptop-price-predictor-regression-project-main/pipe.pkl','rb'))
-df = pickle.load(open('C:/Users/Appu/Desktop/Streamlit Test/Best Code Streamlit/00. Test project/Project 7/laptop-price-predictor-regression-project-main/df.pkl','rb'))
+pipe = pickle.load(open('pipe.pkl','rb'))
+df = pickle.load(open('df.pkl','rb'))
 
 st.title("Laptop Predictor")
 
